@@ -1,0 +1,13 @@
+C:\Users\zhongduzhi\Desktop\研究学习\Learn.Memcached\bin\Debug\Learn.Memcached.exe.config
+C:\Users\zhongduzhi\Desktop\研究学习\Learn.Memcached\bin\Debug\Learn.Memcached.exe
+C:\Users\zhongduzhi\Desktop\研究学习\Learn.Memcached\bin\Debug\Learn.Memcached.pdb
+C:\Users\zhongduzhi\Desktop\研究学习\Learn.Memcached\bin\Debug\Enyim.Caching.dll
+C:\Users\zhongduzhi\Desktop\研究学习\Learn.Memcached\bin\Debug\Enyim.Caching.pdb
+C:\Users\zhongduzhi\Desktop\研究学习\Learn.Memcached\bin\Debug\Enyim.Caching.xml
+C:\Users\zhongduzhi\Desktop\研究学习\Learn.Memcached\obj\Debug\Learn.Memcached.csprojResolveAssemblyReference.cache
+C:\Users\zhongduzhi\Desktop\研究学习\Learn.Memcached\obj\Debug\Learn.Memcached.exe
+C:\Users\zhongduzhi\Desktop\研究学习\Learn.Memcached\obj\Debug\Learn.Memcached.pdb
+C:\Users\zhongduzhi\Desktop\研究学习\Learn.Memcached\bin\Debug\Enyim.Caching.Log4NetAdapter.dll
+C:\Users\zhongduzhi\Desktop\研究学习\Learn.Memcached\bin\Debug\log4net.dll
+C:\Users\zhongduzhi\Desktop\研究学习\Learn.Memcached\bin\Debug\Enyim.Caching.Log4NetAdapter.pdb
+C:\Users\zhongduzhi\Desktop\研究学习\Learn.Memcached\bin\Debug\log4net.xml

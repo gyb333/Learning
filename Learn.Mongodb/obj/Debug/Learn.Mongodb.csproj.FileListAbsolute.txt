@@ -1,0 +1,10 @@
+C:\Users\zhongduzhi\Desktop\研究学习\Learn.Mongodb\bin\Debug\Learn.Mongodb.exe.config
+C:\Users\zhongduzhi\Desktop\研究学习\Learn.Mongodb\bin\Debug\Learn.Mongodb.exe
+C:\Users\zhongduzhi\Desktop\研究学习\Learn.Mongodb\bin\Debug\Learn.Mongodb.pdb
+C:\Users\zhongduzhi\Desktop\研究学习\Learn.Mongodb\bin\Debug\MongoDB.Bson.dll
+C:\Users\zhongduzhi\Desktop\研究学习\Learn.Mongodb\bin\Debug\MongoDB.Driver.dll
+C:\Users\zhongduzhi\Desktop\研究学习\Learn.Mongodb\bin\Debug\MongoDB.Bson.pdb
+C:\Users\zhongduzhi\Desktop\研究学习\Learn.Mongodb\bin\Debug\MongoDB.Driver.pdb
+C:\Users\zhongduzhi\Desktop\研究学习\Learn.Mongodb\obj\Debug\Learn.Mongodb.csprojResolveAssemblyReference.cache
+C:\Users\zhongduzhi\Desktop\研究学习\Learn.Mongodb\obj\Debug\Learn.Mongodb.exe
+C:\Users\zhongduzhi\Desktop\研究学习\Learn.Mongodb\obj\Debug\Learn.Mongodb.pdb

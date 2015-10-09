@@ -1,0 +1,12 @@
+C:\Users\zhongduzhi\Desktop\研究学习\JobSchedule\bin\Debug\JobSchedule.exe.config
+C:\Users\zhongduzhi\Desktop\研究学习\JobSchedule\bin\Debug\JobSchedule.exe
+C:\Users\zhongduzhi\Desktop\研究学习\JobSchedule\bin\Debug\JobSchedule.pdb
+C:\Users\zhongduzhi\Desktop\研究学习\JobSchedule\bin\Debug\Nullables.dll
+C:\Users\zhongduzhi\Desktop\研究学习\JobSchedule\bin\Debug\Quartz.dll
+C:\Users\zhongduzhi\Desktop\研究学习\JobSchedule\obj\Debug\JobSchedule.Properties.Resources.resources
+C:\Users\zhongduzhi\Desktop\研究学习\JobSchedule\obj\Debug\JobSchedule.csproj.GenerateResource.Cache
+C:\Users\zhongduzhi\Desktop\研究学习\JobSchedule\obj\Debug\JobSchedule.exe
+C:\Users\zhongduzhi\Desktop\研究学习\JobSchedule\obj\Debug\JobSchedule.pdb
+C:\Users\zhongduzhi\Desktop\研究学习\JobSchedule\bin\Debug\Common.Logging.Log4Net1211.dll
+C:\Users\zhongduzhi\Desktop\研究学习\JobSchedule\bin\Debug\log4net.dll
+C:\Users\zhongduzhi\Desktop\研究学习\JobSchedule\obj\Debug\JobSchedule.csprojResolveAssemblyReference.cache
