@@ -1,0 +1,8 @@
+D:\K3\Learning\Learn.T4\Learn.T4\bin\Debug\Learn.T4.exe.config
+D:\K3\Learning\Learn.T4\Learn.T4\bin\Debug\Learn.T4.exe
+D:\K3\Learning\Learn.T4\Learn.T4\bin\Debug\Learn.T4.pdb
+D:\K3\Learning\Learn.T4\Learn.T4\obj\Debug\Learn.T4.pdb
+D:\K3\Learning\Learn.T4\Learn.T4\Lib\Learn.T4.pdb
+D:\K3\Learning\Learn.T4\Learn.T4\Lib\Learn.T4.dll.config
+D:\K3\Learning\Learn.T4\Learn.T4\Lib\Learn.T4.dll
+D:\K3\Learning\Learn.T4\Learn.T4\obj\Debug\Learn.T4.dll

@@ -1,0 +1,16 @@
+﻿<#@ template debug="true" hostspecific="true" language="C#" #>
+<#@ assembly name="$(TargetDir)Learn.T4.dll" #>
+
+ 
+ <#@ import namespace="System.Diagnostics" #>
+<#@ import namespace="Learn.T4" #>
+<#@ output extension=".empty" #>
+
+
+
+<#
+
+this.RunCodeGenerator(this.Host, new DemoGenerator("OutPut"));
+#>
+
+ 

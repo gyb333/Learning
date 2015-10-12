@@ -1,0 +1,34 @@
+﻿<#+
+// <copyright file="HelloWorldTemplate.tt" company="">
+//  Copyright © . All Rights Reserved.
+// </copyright>
+
+public class HelloWorldTemplate : CSharpTemplate
+{
+	private string className;
+	public HelloWorldTemplate(string className){
+		this.className = className;
+	}
+
+	public override string TransformText()
+	{
+		base.TransformText();
+#>
+using System;
+namespace <#= DefaultNamespace #>
+{
+	public class <#= Identifier(className) #>
+	{
+		public <#=className #>(string field){
+			this.field = field;
+		}
+		private string <#= FieldName("field") #>;
+
+		public string <#= PropertyName("Property") #> { get; set; }
+	}
+}
+<#+
+        return this.GenerationEnvironment.ToString();
+	}
+}
+#>
