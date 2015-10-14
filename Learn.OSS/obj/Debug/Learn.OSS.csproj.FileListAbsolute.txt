@@ -1,9 +1,5 @@
-C:\Users\zhongduzhi\Desktop\研究学习\Learn.OSS\bin\Debug\Learn.OSS.exe.config
-C:\Users\zhongduzhi\Desktop\研究学习\Learn.OSS\bin\Debug\Learn.OSS.exe
-C:\Users\zhongduzhi\Desktop\研究学习\Learn.OSS\bin\Debug\Learn.OSS.pdb
-C:\Users\zhongduzhi\Desktop\研究学习\Learn.OSS\bin\Debug\Aliyun.OpenServices.dll
-C:\Users\zhongduzhi\Desktop\研究学习\Learn.OSS\bin\Debug\Aliyun.OpenServices.pdb
-C:\Users\zhongduzhi\Desktop\研究学习\Learn.OSS\bin\Debug\Aliyun.OpenServices.xml
-C:\Users\zhongduzhi\Desktop\研究学习\Learn.OSS\obj\Debug\Learn.OSS.csprojResolveAssemblyReference.cache
-C:\Users\zhongduzhi\Desktop\研究学习\Learn.OSS\obj\Debug\Learn.OSS.exe
-C:\Users\zhongduzhi\Desktop\研究学习\Learn.OSS\obj\Debug\Learn.OSS.pdb
+D:\K3\Output\Learn.OSS.exe.config
+D:\K3\Output\Learn.OSS.exe
+D:\K3\Output\Learn.OSS.pdb
+D:\K3\Learning\Learn.OSS\obj\Debug\Learn.OSS.exe
+D:\K3\Learning\Learn.OSS\obj\Debug\Learn.OSS.pdb

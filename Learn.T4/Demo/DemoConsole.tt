@@ -7,10 +7,9 @@
 <#@ output extension=".empty" #>
 
 
-
 <#
 
-this.RunCodeGenerator(this.Host, new DemoGenerator("OutPut"));
+this.RunCodeGenerator(this.Host, new DemoGenerator());
 #>
 
  

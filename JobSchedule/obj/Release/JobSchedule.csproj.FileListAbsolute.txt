@@ -1,8 +1,0 @@
-C:\Users\zhongduzhi\Desktop\研究学习\JobSchedule\obj\Release\JobSchedule.Properties.Resources.resources
-C:\Users\zhongduzhi\Desktop\研究学习\JobSchedule\obj\Release\JobSchedule.csproj.GenerateResource.Cache
-C:\Users\zhongduzhi\Desktop\研究学习\JobSchedule\bin\Release\JobSchedule.exe.config
-C:\Users\zhongduzhi\Desktop\研究学习\JobSchedule\bin\Release\JobSchedule.exe
-C:\Users\zhongduzhi\Desktop\研究学习\JobSchedule\bin\Release\JobSchedule.pdb
-C:\Users\zhongduzhi\Desktop\研究学习\JobSchedule\obj\Release\JobSchedule.exe
-C:\Users\zhongduzhi\Desktop\研究学习\JobSchedule\obj\Release\JobSchedule.pdb
-C:\Users\zhongduzhi\Desktop\研究学习\JobSchedule\obj\Release\JobSchedule.csprojResolveAssemblyReference.cache

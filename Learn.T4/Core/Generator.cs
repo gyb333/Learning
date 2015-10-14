@@ -1,4 +1,5 @@
 ﻿using EnvDTE;
+using EnvDTE80;
 using System;
 using System.Collections.Generic;
 using System.IO;
@@ -11,7 +12,7 @@ namespace Learn.T4
 public abstract class Generator
 {
     private string directory;
-
+    List<string> files = new List<string>();
     protected virtual IDictionary<string, Template> CreateTemplates()
     {
         return new Dictionary<string, Template>();
@@ -24,20 +25,19 @@ public abstract class Generator
     {
         
         this.RunCore();
-        //this.RemoveUnusedFiles();
+        this.RemoveUnusedFiles();
     }
     protected virtual void RunCore()
     {
-        List<string> files = new List<string>();
+       
         directory = Path.GetDirectoryName(TransformContext.Current.Host.TemplateFile);
+        directory = Path.Combine(directory, "OutPut");
         foreach (var item in this.CreateTemplates())
         {
-    
-
             files.Add(Path.Combine(directory,item.Key));
             
             item.Value.EnsureInitialized();
-            item.Value.RenderToFile(item.Key);
+            item.Value.RenderToFile(item.Key,"OutPut");
         }
 
         Template template = this.CreateTemplate();
@@ -49,14 +49,7 @@ public abstract class Generator
     }
     protected virtual void RemoveUnusedFiles()
     {
-        List<string> files = new List<string>();
-        directory = Path.GetDirectoryName(TransformContext.Current.Host.TemplateFile);
-        foreach (var item in this.CreateTemplates())
-        {
-            files.Add(Path.Combine(directory, item.Key));
-            item.Value.EnsureInitialized();
-            item.Value.RenderToFile(item.Key);
-        }
+       
         var projectItems = TransformContext.Current.TemplageProjectItem.ProjectItems.Cast<ProjectItem>().ToArray();
         foreach (ProjectItem projectItem in projectItems)
         {

@@ -9,8 +9,7 @@ namespace Learn.T4
     public class DemoTemplate : Template
     {
         public string ClassName { get; private set; }
-        public DemoTemplate(string className, string folder)
-            : base(folder)
+        public DemoTemplate(string className)
         {
             this.ClassName = className;
         }

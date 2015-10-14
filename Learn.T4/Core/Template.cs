@@ -1,4 +1,5 @@
 ﻿using EnvDTE;
+using EnvDTE80;
 using Microsoft.VisualStudio.TextTemplating;
 using System;
 using System.Collections.Generic;
@@ -12,12 +13,6 @@ public abstract class Template: TextTransformation
 {
     //    <# System.Diagnostics.Debugger.Launch();#>                
     //<#System.Diagnostics.Debugger.Break();#> 
-    public Template(string folder)
-    {
-        this.folder = folder;
-    }
-
-    private string folder;
 
 
     private bool initialized;
@@ -39,23 +34,40 @@ public abstract class Template: TextTransformation
         string contents = this.TransformText();
         TransformContext.Current.Transformation.Write(contents);
     }
-    public virtual void RenderToFile(string fileName)
+    public virtual void RenderToFile(string fileName,string strFolder="")
     {
             TransformContext.EnsureContextInitialized();
             string directory = Path.GetDirectoryName(TransformContext.Current.Host.TemplateFile);
-            directory = Path.Combine(directory, folder);
+            
+
+             
+            directory = Path.Combine(directory, strFolder);
+
             if (!Directory.Exists(directory))
             {
                 Directory.CreateDirectory(directory);
+
             }
-            fileName = Path.Combine(directory, fileName);
+                       
+            //fileName = string.Format(@"{0}\{1}", directory, fileName);
+
+             fileName = Path.Combine(directory, fileName);
             string contents = this.TransformText();
             this.CreateFile(fileName, contents);
-            if (TransformContext.Current.TemplageProjectItem.ProjectItems.Cast<ProjectItem>().Any(item => item.get_FileNames(0) != fileName))
+
+            ProjectItem pi = TransformContext.Current.TemplageProjectItem;
+            var pis = pi.ProjectItems;
+            //if (pis.Cast<ProjectItem>().Any(item => item.Name != strFolder))
+            //{    
+            //    pis.AddFromDirectory(directory);
+            //}
+            //var pisFolder = pis.Cast<ProjectItem>().First(item => item.Name == strFolder).ProjectItems;
+
+            if (pis.Cast<ProjectItem>().Any(item => item.get_FileNames(0) != fileName))
             {
-                TransformContext.Current.TemplageProjectItem.ProjectItems.AddFromFile(fileName);
-                 
+                pis.AddFromFile(fileName);
             }
+
     }
     protected void CreateFile(string fileName, string contents)
     {

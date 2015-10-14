@@ -1,10 +1,6 @@
-C:\Users\zhongduzhi\Desktop\研究学习\Learn.Redis\bin\Debug\Learn.Redis.exe.config
-C:\Users\zhongduzhi\Desktop\研究学习\Learn.Redis\bin\Debug\Learn.Redis.exe
-C:\Users\zhongduzhi\Desktop\研究学习\Learn.Redis\bin\Debug\Learn.Redis.pdb
-C:\Users\zhongduzhi\Desktop\研究学习\Learn.Redis\bin\Debug\ServiceStack.Common.dll
-C:\Users\zhongduzhi\Desktop\研究学习\Learn.Redis\bin\Debug\ServiceStack.Interfaces.dll
-C:\Users\zhongduzhi\Desktop\研究学习\Learn.Redis\bin\Debug\ServiceStack.Redis.dll
-C:\Users\zhongduzhi\Desktop\研究学习\Learn.Redis\bin\Debug\ServiceStack.Text.dll
-C:\Users\zhongduzhi\Desktop\研究学习\Learn.Redis\obj\Debug\Learn.Redis.csprojResolveAssemblyReference.cache
-C:\Users\zhongduzhi\Desktop\研究学习\Learn.Redis\obj\Debug\Learn.Redis.exe
-C:\Users\zhongduzhi\Desktop\研究学习\Learn.Redis\obj\Debug\Learn.Redis.pdb
+D:\K3\Learning\Learn.Redis\obj\Debug\Learn.Redis.csprojResolveAssemblyReference.cache
+D:\K3\Output\Learn.Redis.exe.config
+D:\K3\Output\Learn.Redis.exe
+D:\K3\Output\Learn.Redis.pdb
+D:\K3\Learning\Learn.Redis\obj\Debug\Learn.Redis.exe
+D:\K3\Learning\Learn.Redis\obj\Debug\Learn.Redis.pdb

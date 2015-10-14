@@ -6,3 +6,13 @@ D:\K3\Learning\Learn.T4\Learn.T4\Lib\Learn.T4.pdb
 D:\K3\Learning\Learn.T4\Learn.T4\Lib\Learn.T4.dll.config
 D:\K3\Learning\Learn.T4\Learn.T4\Lib\Learn.T4.dll
 D:\K3\Learning\Learn.T4\Learn.T4\obj\Debug\Learn.T4.dll
+D:\K3\Learning\Learn.T4\Lib\Learn.T4.dll.config
+D:\K3\Learning\Learn.T4\Lib\Learn.T4.dll
+D:\K3\Learning\Learn.T4\Lib\Learn.T4.pdb
+D:\K3\Learning\Learn.T4\Lib\Microsoft.VisualStudio.Settings.dll
+D:\K3\Learning\Learn.T4\Lib\Microsoft.VisualStudio.Settings.xml
+D:\K3\Output\Learn.T4.dll.config
+D:\K3\Output\Learn.T4.dll
+D:\K3\Output\Learn.T4.pdb
+D:\K3\Learning\Learn.T4\obj\Debug\Learn.T4.dll
+D:\K3\Learning\Learn.T4\obj\Debug\Learn.T4.pdb
