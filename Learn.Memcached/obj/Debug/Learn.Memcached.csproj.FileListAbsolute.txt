@@ -3,3 +3,4 @@ D:\K3\Output\Learn.Memcached.exe
 D:\K3\Output\Learn.Memcached.pdb
 D:\K3\Learning\Learn.Memcached\obj\Debug\Learn.Memcached.exe
 D:\K3\Learning\Learn.Memcached\obj\Debug\Learn.Memcached.pdb
+D:\K3\Learning\Learn.Memcached\obj\Debug\Learn.Memcached.csprojResolveAssemblyReference.cache

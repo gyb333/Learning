@@ -1,0 +1,131 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{177CD407-15EC-479A-ACBF-6E83C939D594}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Learn.EF</RootNamespace>
+    <AssemblyName>Learn.EF</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>..\..\Output\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Enyim.Caching, Version=1.0.0.0, Culture=neutral, PublicKeyToken=cec98615db04012e, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\packages\Memcached\Enyim.Caching.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.ApplicationServer.Caching.Client">
+      <HintPath>..\packages\ServerAppFabric.Client.1.1.2106.32\lib\net35\Microsoft.ApplicationServer.Caching.Client.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.ApplicationServer.Caching.Core">
+      <HintPath>..\packages\ServerAppFabric.Client.1.1.2106.32\lib\net35\Microsoft.ApplicationServer.Caching.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.Entity" />
+    <Reference Include="System.Transactions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="EFCachingProvider\Caching\AppFabricCache.cs" />
+    <Compile Include="EFCachingProvider\Caching\CacheAllPolicy.cs" />
+    <Compile Include="EFCachingProvider\Caching\CachingPolicy.cs" />
+    <Compile Include="EFCachingProvider\Caching\CustomCachingPolicy.cs" />
+    <Compile Include="EFCachingProvider\Caching\DbQueryResults.cs" />
+    <Compile Include="EFCachingProvider\Caching\ICache.cs" />
+    <Compile Include="EFCachingProvider\Caching\InMemoryCache.cs" />
+    <Compile Include="EFCachingProvider\Caching\MemcachedCache.cs" />
+    <Compile Include="EFCachingProvider\Caching\NoCachingPolicy.cs" />
+    <Compile Include="EFCachingProvider\DbCommandTreeScanner.cs" />
+    <Compile Include="EFCachingProvider\EFCachingCommand.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="EFCachingProvider\EFCachingCommandDefinition.cs" />
+    <Compile Include="EFCachingProvider\EFCachingConnection.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="EFCachingProvider\EFCachingDataReaderBase.cs" />
+    <Compile Include="EFCachingProvider\EFCachingDataReaderCacheReader.cs" />
+    <Compile Include="EFCachingProvider\EFCachingDataReaderCacheWriter.cs" />
+    <Compile Include="EFCachingProvider\EFCachingExtensionMethods.cs" />
+    <Compile Include="EFCachingProvider\EFCachingProviderConfiguration.cs" />
+    <Compile Include="EFCachingProvider\EFCachingProviderFactory.cs" />
+    <Compile Include="EFCachingProvider\EFCachingProviderServices.cs" />
+    <Compile Include="EFCachingProvider\EFCachingTransaction.cs" />
+    <Compile Include="EFCachingProvider\GlobalSuppressions.cs" />
+    <Compile Include="EFProviderWrapper\DbCommandDefinitionWrapper.cs" />
+    <Compile Include="EFProviderWrapper\DbCommandWrapper.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="EFProviderWrapper\DbConnectionWrapper.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="EFProviderWrapper\DbProviderFactoryBase.cs" />
+    <Compile Include="EFProviderWrapper\DbProviderManifestWrapper.cs" />
+    <Compile Include="EFProviderWrapper\DbProviderServicesBase.cs" />
+    <Compile Include="EFProviderWrapper\DbTransactionWrapper.cs" />
+    <Compile Include="EFProviderWrapper\EFProviderWrapperConnection.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="EFProviderWrapper\EFProviderWrapperFactory.cs" />
+    <Compile Include="EFProviderWrapper\EFProviderWrapperServices.cs" />
+    <Compile Include="EFProviderWrapper\EFProviderWriterExtensionMethods.cs" />
+    <Compile Include="EFProviderWrapper\EntityConnectionWrapperUtils.cs" />
+    <Compile Include="EFProviderWrapper\GlobalSuppressions.cs" />
+    <Compile Include="EFTracingProvider\CommandExecutionEventArgs.cs" />
+    <Compile Include="EFTracingProvider\CommandExecutionStatus.cs" />
+    <Compile Include="EFTracingProvider\EFTracingCommand.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="EFTracingProvider\EFTracingConnection.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="EFTracingProvider\EFTracingExtensionMethods.cs" />
+    <Compile Include="EFTracingProvider\EFTracingProviderConfiguration.cs" />
+    <Compile Include="EFTracingProvider\EFTracingProviderFactory.cs" />
+    <Compile Include="EFTracingProvider\EFTracingProviderServices.cs" />
+    <Compile Include="EFTracingProvider\GlobalSuppressions.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="EFCachingProvider\CustomDictionary.xml" />
+    <Content Include="EFProviderWrapper\CustomDictionary.xml" />
+    <Content Include="EFTracingProvider\CustomDictionary.xml" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

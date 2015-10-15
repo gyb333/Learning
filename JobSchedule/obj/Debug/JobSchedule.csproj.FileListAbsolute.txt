@@ -5,3 +5,4 @@ D:\K3\Output\JobSchedule.exe
 D:\K3\Output\JobSchedule.pdb
 D:\K3\Learning\JobSchedule\obj\Debug\JobSchedule.exe
 D:\K3\Learning\JobSchedule\obj\Debug\JobSchedule.pdb
+D:\K3\Learning\JobSchedule\obj\Debug\JobSchedule.csprojResolveAssemblyReference.cache

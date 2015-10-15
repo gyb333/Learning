@@ -1,6 +1,6 @@
-D:\K3\Learning\Learn.Redis\obj\Debug\Learn.Redis.csprojResolveAssemblyReference.cache
 D:\K3\Output\Learn.Redis.exe.config
 D:\K3\Output\Learn.Redis.exe
 D:\K3\Output\Learn.Redis.pdb
 D:\K3\Learning\Learn.Redis\obj\Debug\Learn.Redis.exe
 D:\K3\Learning\Learn.Redis\obj\Debug\Learn.Redis.pdb
+D:\K3\Learning\Learn.Redis\obj\Debug\Learn.Redis.csprojResolveAssemblyReference.cache

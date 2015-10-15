@@ -1,0 +1,10 @@
+D:\K3\Learning\Learn.CommonServiceLocator\bin\Debug\Learn.CommonServiceLocator.dll
+D:\K3\Learning\Learn.CommonServiceLocator\bin\Debug\Learn.CommonServiceLocator.pdb
+D:\K3\Learning\Learn.CommonServiceLocator\obj\Debug\Learn.CommonServiceLocator.dll
+D:\K3\Learning\Learn.CommonServiceLocator\obj\Debug\Learn.CommonServiceLocator.pdb
+D:\K3\Learning\Learn.CommonServiceLocator\bin\Debug\Microsoft.Practices.ServiceLocation.dll
+D:\K3\Learning\Learn.CommonServiceLocator\bin\Debug\Microsoft.Practices.ServiceLocation.pdb
+D:\K3\Learning\Learn.CommonServiceLocator\bin\Debug\Microsoft.Practices.ServiceLocation.xml
+D:\K3\Learning\Learn.CommonServiceLocator\obj\Debug\Learn.CommonServiceLocator.csprojResolveAssemblyReference.cache
+D:\K3\Learning\Learn.CommonServiceLocator\obj\Debug\Learn.CommonServiceLocator.Properties.Resources.resources
+D:\K3\Learning\Learn.CommonServiceLocator\obj\Debug\Learn.CommonServiceLocator.csproj.GenerateResource.Cache

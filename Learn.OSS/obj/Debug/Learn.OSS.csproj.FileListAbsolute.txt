@@ -3,3 +3,4 @@ D:\K3\Output\Learn.OSS.exe
 D:\K3\Output\Learn.OSS.pdb
 D:\K3\Learning\Learn.OSS\obj\Debug\Learn.OSS.exe
 D:\K3\Learning\Learn.OSS\obj\Debug\Learn.OSS.pdb
+D:\K3\Learning\Learn.OSS\obj\Debug\Learn.OSS.csprojResolveAssemblyReference.cache

@@ -7,13 +7,17 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Learn.T4", "Learn.T4\Learn.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Learn.Memcached", "Learn.Memcached\Learn.Memcached.csproj", "{5FE139F8-B797-4377-B168-D083A630C11E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JobSchedule", "JobSchedule\JobSchedule.csproj", "{FC3FAF5D-AD34-4227-A934-1AFBEF2DFD39}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Learn.Mongodb", "Learn.Mongodb\Learn.Mongodb.csproj", "{4F7E49C8-56D9-4FC9-81DF-A16A00632157}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Learn.OSS", "Learn.OSS\Learn.OSS.csproj", "{57D3A0D6-EFB6-4CC3-90C5-CA08FBAD35A4}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Learn.Redis", "Learn.Redis\Learn.Redis.csproj", "{C903D84A-3D4A-4955-99A9-F5B02401D03B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Learn.CommonServiceLocator", "Learn.CommonServiceLocator\Learn.CommonServiceLocator.csproj", "{D11669C4-82AB-4FA4-B322-7CEB6EAA35F0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JobSchedule", "JobSchedule\JobSchedule.csproj", "{FC3FAF5D-AD34-4227-A934-1AFBEF2DFD39}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Learn.EF", "Learn.EF\Learn.EF.csproj", "{177CD407-15EC-479A-ACBF-6E83C939D594}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -29,10 +33,6 @@ Global
 		{5FE139F8-B797-4377-B168-D083A630C11E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5FE139F8-B797-4377-B168-D083A630C11E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5FE139F8-B797-4377-B168-D083A630C11E}.Release|Any CPU.Build.0 = Release|Any CPU
-		{FC3FAF5D-AD34-4227-A934-1AFBEF2DFD39}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{FC3FAF5D-AD34-4227-A934-1AFBEF2DFD39}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{FC3FAF5D-AD34-4227-A934-1AFBEF2DFD39}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{FC3FAF5D-AD34-4227-A934-1AFBEF2DFD39}.Release|Any CPU.Build.0 = Release|Any CPU
 		{4F7E49C8-56D9-4FC9-81DF-A16A00632157}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{4F7E49C8-56D9-4FC9-81DF-A16A00632157}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4F7E49C8-56D9-4FC9-81DF-A16A00632157}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -45,6 +45,18 @@ Global
 		{C903D84A-3D4A-4955-99A9-F5B02401D03B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C903D84A-3D4A-4955-99A9-F5B02401D03B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C903D84A-3D4A-4955-99A9-F5B02401D03B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D11669C4-82AB-4FA4-B322-7CEB6EAA35F0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D11669C4-82AB-4FA4-B322-7CEB6EAA35F0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D11669C4-82AB-4FA4-B322-7CEB6EAA35F0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D11669C4-82AB-4FA4-B322-7CEB6EAA35F0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FC3FAF5D-AD34-4227-A934-1AFBEF2DFD39}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FC3FAF5D-AD34-4227-A934-1AFBEF2DFD39}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FC3FAF5D-AD34-4227-A934-1AFBEF2DFD39}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FC3FAF5D-AD34-4227-A934-1AFBEF2DFD39}.Release|Any CPU.Build.0 = Release|Any CPU
+		{177CD407-15EC-479A-ACBF-6E83C939D594}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{177CD407-15EC-479A-ACBF-6E83C939D594}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{177CD407-15EC-479A-ACBF-6E83C939D594}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{177CD407-15EC-479A-ACBF-6E83C939D594}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

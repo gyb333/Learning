@@ -1,0 +1,5 @@
+D:\K3\Output\Learn.EF.dll
+D:\K3\Output\Learn.EF.pdb
+D:\K3\Learning\Learn.EF\obj\Debug\Learn.EF.dll
+D:\K3\Learning\Learn.EF\obj\Debug\Learn.EF.pdb
+D:\K3\Learning\Learn.EF\obj\Debug\Learn.EF.csprojResolveAssemblyReference.cache

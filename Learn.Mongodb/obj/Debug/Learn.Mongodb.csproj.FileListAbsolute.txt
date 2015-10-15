@@ -3,3 +3,4 @@ D:\K3\Output\Learn.Mongodb.exe
 D:\K3\Output\Learn.Mongodb.pdb
 D:\K3\Learning\Learn.Mongodb\obj\Debug\Learn.Mongodb.exe
 D:\K3\Learning\Learn.Mongodb\obj\Debug\Learn.Mongodb.pdb
+D:\K3\Learning\Learn.Mongodb\obj\Debug\Learn.Mongodb.csprojResolveAssemblyReference.cache

@@ -184,6 +184,7 @@
       <Generator>TextTemplatingFileGenerator</Generator>
       <LastGenOutput>DemoConsole.empty</LastGenOutput>
     </None>
+    <None Include="packages.config" />
     <None Include="T4\HelloWorldTemplate.tt" />
     <None Include="SingleFile\HelloWorld.tt">
       <Generator>TextTemplatingFileGenerator</Generator>

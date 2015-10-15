@@ -16,3 +16,4 @@ D:\K3\Output\Learn.T4.dll
 D:\K3\Output\Learn.T4.pdb
 D:\K3\Learning\Learn.T4\obj\Debug\Learn.T4.dll
 D:\K3\Learning\Learn.T4\obj\Debug\Learn.T4.pdb
+D:\K3\Learning\Learn.T4\obj\Debug\Learn.T4.csprojResolveAssemblyReference.cache
