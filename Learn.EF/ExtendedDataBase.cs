@@ -2,7 +2,6 @@
 using EFCachingProvider.Caching;
 using EFProviderWrapperToolkit;
 using EFTracingProvider;
-using log4net;
 using System;
 using System.Collections.Generic;
 using System.Configuration;
@@ -14,25 +13,20 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using EFTracingProvider;
+using log4net;
 
 namespace Learn.EF
 {
     public class ExtendedDataBase:DbContext
     {
-        private TextWriter logOutput;
-        //private static ILog logger;
+
+        private ILog logger;
+
+    
         public ExtendedDataBase()
 
         {
-            //// 初始化Log4net,配置在独立的"log4net.config"中配置
-            //log4net.Config.XmlConfigurator.Configure(new FileInfo("log4net.config"));
-            //// 初始化一个logger
-            //logger = log4net.LogManager.GetLogger("EFLog4net");
-
-           
-            
-            // 输出 TraceString (SQL文)
-            //logger.Debug(Environment.NewLine + e.ToTraceString().TrimEnd());
+    
  
         }
         public ExtendedDataBase(string connectionString)
@@ -45,6 +39,21 @@ namespace Learn.EF
 
         }
 
+        private DbConnection Connection
+        {
+            get
+            {
+                IObjectContextAdapter oca = this as IObjectContextAdapter;
+                if (oca != null && oca.ObjectContext != null)
+                {
+                    return oca.ObjectContext.Connection;
+                }
+                else
+                {
+                    return null;
+                }
+            }
+        }
 
 
         #region Tracing Extensions
@@ -53,8 +62,8 @@ namespace Learn.EF
         {
             get
             {
-                IObjectContextAdapter  oca = this as IObjectContextAdapter;
-                return oca.ObjectContext.Connection.UnwrapConnection<EFTracingConnection>();
+               
+                return Connection.UnwrapConnection<EFTracingConnection>();
   
             }
         }
@@ -79,19 +88,18 @@ namespace Learn.EF
 
         private void AppendToLog(object sender, CommandExecutionEventArgs e)
         {
-            if (this.logOutput != null)
+            if ( logger != null)
             {
-                this.logOutput.WriteLine(e.ToTraceString().TrimEnd());
-                this.logOutput.WriteLine();
+                logger.Debug(e.ToTraceString().TrimEnd());                
             }
         }
 
-        public TextWriter Log
+        public  ILog Logger
         {
-            get { return this.logOutput; }
+            get { return  logger; }
             set
             {
-                if ((this.logOutput != null) != (value != null))
+                if (( logger != null) != (value != null))
                 {
                     if (value == null)
                     {
@@ -103,7 +111,7 @@ namespace Learn.EF
                     }
                 }
 
-                this.logOutput = value;
+                logger = value;
             }
         }
 
@@ -116,8 +124,7 @@ namespace Learn.EF
         {
             get
             {
-                IObjectContextAdapter oca = this as IObjectContextAdapter;
-                return oca.ObjectContext.Connection.UnwrapConnection<EFCachingConnection>();
+               return Connection.UnwrapConnection<EFCachingConnection>();
             }
         }
 

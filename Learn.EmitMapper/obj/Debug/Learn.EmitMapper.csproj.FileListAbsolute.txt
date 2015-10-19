@@ -1,0 +1,5 @@
+D:\K3\Output\Learn.EmitMapper.dll
+D:\K3\Output\Learn.EmitMapper.pdb
+D:\K3\Learning\Learn.EmitMapper\obj\Debug\Learn.EmitMapper.csprojResolveAssemblyReference.cache
+D:\K3\Learning\Learn.EmitMapper\obj\Debug\Learn.EmitMapper.dll
+D:\K3\Learning\Learn.EmitMapper\obj\Debug\Learn.EmitMapper.pdb
