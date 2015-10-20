@@ -1,0 +1,5 @@
+D:\K3\Learning\Learn.structuremap\obj\Debug\Learn.structuremap.csprojResolveAssemblyReference.cache
+D:\K3\Output\Learn.structuremap.dll
+D:\K3\Output\Learn.structuremap.pdb
+D:\K3\Learning\Learn.structuremap\obj\Debug\Learn.structuremap.dll
+D:\K3\Learning\Learn.structuremap\obj\Debug\Learn.structuremap.pdb
